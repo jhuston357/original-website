@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Jerimiah's Website</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<nav class="navbar navbar-light fixed-top navbar-expand-md">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src=media/img/logo2t.png></a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/resume.html">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="/photos.html">Photos</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- fix -->
+<section>
+	<div class="landing-text">
+		<h1>Jerimiah Huston</h1>
+		<h3>Computer Scientist</h3>
+
+	</div>
+	<div class="home-wrap">
+        <div id="home">
+		</div>
+    </div>
+</section>
+
+<!--
+<div id="home">
+  <div class="landing-text">
+    <h1> Jerimiah Huston </h1>
+    <h3> Computer Scientist </h3>
+  </div>
+</div>
+-->
+<div class="padding">
+ <div class="container">
+   <div class="row">
+
+     <div class="col text-center">
+
+       <h3>CHUCK QUOTES TABLE</h3>
+
+     </div>
+
+   </div>
+   <div class="row">
+
+     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 my-auto">
+       <img src=media/img/jjhCF.jpg>
+     </div>
+
+   </div>
+ </div>
+</div>
+
+<!-- fix -->
+<figure>
+	<div class="fixed-wrap">
+    <div id="fixed">
+    </div>
+  </div>
+</figure>
+
+<!---<div id="fixed">
+</div>
+--->
+
+<footer class="container-fluid text-center">
+  <div class="row">
+
+    <div class="col-sm-6 text-center">
+      <h3> Contact </h3>
+      Phone:<a href="tel:+17249808867"> (724)-980-8867</a></BR>
+      Email:<a href="mailto:jhuston357@live.com"> Jhuston357@live.com</a>
+    </div>
+    <div class="col-sm-6 text-center">
+      <h3> Social Media </h3>
+      <a href="https://www.facebook.com/JerimiahHuston" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/jhuston357/" class="fa fa-linkedin"></a>
+      <a href="https://github.com/jhuston357" class="fa fa-github"></a>
+      <a href="https://www.youtube.com/watch?v=HLjLHsTAO2w&t" class="fa fa-youtube"></a>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
